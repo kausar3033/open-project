@@ -64,10 +64,9 @@ Others way we can backup openproject from openproject interface
 >> we can backup from open project backup option	
 		
 # Restore openproject in new pc		
-		
-		
-step 1 -  install sql database and pgadmin 	
->> Follow previous postgres installation and pgadmin installation	
+				
+step 1 -  install postgress-sql database and pgadmin 	
+>> Follow previous <a href="https://github.com/kausar3033/postgres-Sql">postgres</a> installation and <a href="https://github.com/kausar3033/Install-PG-Admin">pgadmin</a> installation	
 		
 step 2 - connect sql database into pgadmin
 >> Lets connect	
@@ -84,7 +83,7 @@ step 2 - connect sql database into pgadmin
 	
 >> if password is not working then alter database usr pass and use new pass
 
-step 3 - After successfully connect database into pgadmin restore existing backup file	
+step 3 - After successfully connect database into pgadmin ,then restore existing backup file	
 >> Restore openproject backupfile into selected databse	
 		
 step 4- last step copy file system and replace with new file system	
